@@ -102,11 +102,10 @@ footer {
     color: white;
 }
 #mainid {
-
+text-align: center;
 padding-left: 25%;
 padding-right: 25%;
 padding-top: 30px;
-margin: 0;
 font-family: Tahoma;
 font-size: 0.95em;
 }
