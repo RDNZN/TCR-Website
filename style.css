@@ -159,3 +159,6 @@ color: white;
 	font-family: Tahoma;
 
 }
+main h2, main p, main h1 {
+ text-align: center;
+}
