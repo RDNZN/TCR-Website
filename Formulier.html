@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+<link href="style.css" rel="stylesheet">
+<title>Formulier</title>
+<link rel="icon" href="resources/icon.ico">
+</head>
+<body>
+  <nav>
+    <ul id="menu">
+      <li><a href="index.html">Home</a>
+      <li><a href="#">Over de school</a>
+        <ul>
+          <li><a href="natschool.html">Natschool</a></li>
+          <li><a href="eduarte.html">EduArte</a></li>
+          <li><a href="schoolgids.html">Schoolgids</a></li>
+          <li><a href="examinering.html">Examinering</a></li>
+          <li><a href="slb.html">SLB</a></li>
+          <li><a href="software.html">Software</a>
+        </ul>
+      </li>
+      <li><a href="#">Over de opleiding</a>
+        <ul>
+          <li><a href="opleiding.html">Opleiding</a></li>
+          <li><a href="keuzedelen.html">Keuzedelen</a></li>
+          <li><a href="de vakken.html">De vakken</a></li>
+        </ul>
+          <li><a href="mysql.html">MySQL</a>
+        <li>
+          <li><a href="#">Over ons</a>
+          <ul>
+          <li><a href="daan stein.html">Daan Stein</a>
+          <li><a href="martin verbeek.html">Martin Verbeek</a>
+          </ul>
+  </nav>
+  <form action="#" methode="post"
+    <table>
+      <tr>
+        <td>Voornaam ouder:</td>
+        <td><input type="text" name="Voornaam"/></td>
+      </tr><br>
+      <tr>
+        <td>Achternaam ouder:</td>
+        <td><input type="text" name="Achternaam"></td>
+      </tr><br>
+        <td>Ouders van:</td>
+        <td><input type="text" name="Leerling"></td>
+      </tr><br>
+        <td>Leeftijd:</td>
+        <td><input type="number" name="Leeftijd" min="0" max="100"></td>
+      </tr><br>
+      <tr>
+        <td>Loctie (stad/dorp)</td>
+        <td><input type="text" name="Locatie"></td><br>
+      <tr>
+        <td>Geslacht</td>
+        <td>
+          <input type="radio" value="Man" name="Man">Man
+          <input type="radio" value="Vrouw" name="Vrouw">Vrouw
+        </td><br>
+        <td>Hoeveel wist u zelf al van deze opleiding
+          <input type="checkbox" name="Veel">Veel
+          <input type="checkbox" name="Redelijk wat">Redelijk wat
+          <input type="checkbox" name="Weinig">Een beetje
+          <input type="checkbox" name="Niks">Niks
+        </td><br>
+        <td>Hoeveel heeft u geleerd van deze presentatie
+          <input type="checkbox" name="Veel">Veel
+          <input type="checkbox" name="Redelijk wat">Redelijk wat
+          <input type="checkbox" name="Weinig">Een beetje
+          <input type="checkbox" name="Niks">Niks
+        </td><br>
+        <td>Van een schaal van 1-10 hoe duidelijk vond u deze presentatie
+          <input type="text" name="Schaal" min="1" max="10">
+        </td><br>
+        <td>Heeft u nog enigsinds vragen?
+          <input type="checkbox" name="Ja">Ja
+          <input type="checkbox" name="Nee">Nee
+        </td><br>
+        <td>Als u nog vragen heeft wat is uw vraag?<br>
+            <textarea name="Vragen" cols=60 rows=6></textarea>
+        </td><br>
+      <td><input type="reset" /></td>
+        <td><input type="submit"  value="Versturen" />
+      </table>
+    </form>
