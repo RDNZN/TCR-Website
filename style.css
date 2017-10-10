@@ -162,21 +162,7 @@ color: white;
 main h2, main p, main h1 {
  text-align: center;
 }
-#Slideshow {
-	margin-left: 30%;
-}
-#right:hover {
-	padding-left: 5%;
-}
-#left:hover {
-	padding-right: 5%;
-}
-}
-#mid:hover {
-	padding-left: 5%;
-	padding-right: 5%;
-}
-#Slideshow img:hover {
-	transform: scale(2.5);
 
+#Slideshow {
+	margin-left: 37.5%;
 }
